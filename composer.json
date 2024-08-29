@@ -1,0 +1,36 @@
+{
+    "name": "xactsystems/cast",
+    "description": "Safely cast PHP mixed values to scalar types or null.",
+    "type": "library",
+    "require": {
+        "php": ">=7.1"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Xactsystems\\Cast\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Xactsystems\\Tests\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Ian Foulds",
+            "email": "ianfoulds@x-act.co.uk"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require-dev": {
+        "slevomat/coding-standard": "^8.15",
+        "squizlabs/php_codesniffer": "^3.10",
+        "phpunit/phpunit": "^11.3"
+    },
+    "config": {
+        "allow-plugins": {
+            "dealerdirect/phpcodesniffer-composer-installer": true
+        }
+    }
+}
