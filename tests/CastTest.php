@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Xactsystems\Tests;
+namespace Xact\Tests;
 
 use PHPUnit\Framework\TestCase;
-use Xactsystems\Cast\Cast;
+use Xact\Cast\Cast;
 
 class CastTest extends TestCase
 {

@@ -8,12 +8,12 @@
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Xactsystems\\Cast\\": "src/"
+            "Xact\\Cast\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Xactsystems\\Tests\\": "tests/"
+            "Xact\\Tests\\": "tests/"
         }
     },
     "authors": [

@@ -20,10 +20,10 @@ composer reqire xactsystems/cast
 
 declare(strict_types=1);
 
-namespace Xactsystems\Cast;
+namespace Xact\Cast;
 
 use DateTime;
-use Xactsystems\Cast\Cast;
+use Xact\Cast\Cast;
 
 class Test
 {

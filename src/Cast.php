@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Xactsystems\Cast;
+namespace Xact\Cast;
 
 use DateTime;
 use InvalidArgumentException;
